@@ -1,5 +1,12 @@
 #!/usr/bin/env ruby
 
+# Simple script to sync drivers and schedules between EasyPepp and Onfleet
+#
+# Usage:
+#
+#  ONFLEET_APIKEY=<your_key_here> EASYPEPP_ACCOUNT=<subdomain> EASYPEPP_USERNAME=<email> EASYPEPP_PASSWORD=<password> ./sync.rb
+#
+
 require 'bundler/inline'
 require 'logger'
 
